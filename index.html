@@ -1,9 +1,26 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Title</title>
-  </head>
-  <body>
-    <p>Paragraph</p>
-  </body>
+<html lang="en">
+    <meta charset="utf-8">
+    <meta name="description" content="Address">
+    <meta name="keyword" content="Immaculata, ics2o">
+    <meta name="author" content="Shem Irekpita">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <title>CAD to USD Converter</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+      <script src="./js/script.js"></script>
+   <h1>CAD to USD Converter</h1>
+    <!-- Form for user to input amount in CAD -->
+    <form id="currencyForm" onsubmit="enterClicked(event)">
+        <label for="money-amount">Enter Amount in CAD:</label>
+        <input type="number" step="any" id="money-amount" placeholder="Money amount">
+        <input type="submit" value="Convert">
+    </form>
+
+<div id="user-info">
+    <div id="money-earned"></div>
+    <img src="./images/convert.png">
+</body>
 </html>

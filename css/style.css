@@ -2,3 +2,16 @@
 * Created on: Sep 2020
 * This file contains the CSS for index.html
 */
+body {
+    align-items: center;
+    background-color: #f4f4f9;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+}
